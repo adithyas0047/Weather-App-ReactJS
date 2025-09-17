@@ -1,25 +1,5 @@
 # Weather App 🌤️
 
-<!-- React -->
-
-![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB&style=for-the-badge)
-
-<!-- Vite -->
-
-![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white&style=for-the-badge)
-
-<!-- Material UI -->
-
-![MUI](https://img.shields.io/badge/MUI-007FFF?logo=mui&logoColor=white&style=for-the-badge)
-
-<!-- JavaScript -->
-
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=for-the-badge)
-
-<!-- Node.js -->
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white&style=for-the-badge)
-
 A simple, responsive weather application built with **React** and **Material UI** that lets users search a city and view current conditions including temperature, humidity, min/max, feels like, and a descriptive icon with contextual background.
 
 ## Features
