@@ -1,12 +1,74 @@
-# React + Vite
+# Weather App 🌤️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<!-- React -->
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB&style=for-the-badge)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<!-- Vite -->
 
-## Expanding the ESLint configuration
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white&style=for-the-badge)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<!-- Material UI -->
+
+![MUI](https://img.shields.io/badge/MUI-007FFF?logo=mui&logoColor=white&style=for-the-badge)
+
+<!-- JavaScript -->
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=for-the-badge)
+
+<!-- Node.js -->
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white&style=for-the-badge)
+
+A simple, responsive weather application built with **React** and **Material UI** that lets users search a city and view current conditions including temperature, humidity, min/max, feels like, and a descriptive icon with contextual background.
+
+## Features
+
+- City search with validation and clear error states
+- Current conditions: temperature, humidity, min/max, feels like, description
+- Contextual backgrounds and icons for hot, cold, and rainy conditions
+- Clean, responsive UI using Material UI components
+- Environment-based configuration for API URL and key
+
+## Tech Stack
+
+- React (Vite)
+- Material UI (MUI)
+- Fetch API
+- Environment variables via Vite
+
+## Getting Started
+
+- Prerequisites
+  - Node.js 18+ and npm
+- Install
+  - Clone the repository, then run:
+  ```bash
+  npm install
+  ```
+- Environment variables
+  - Create a .env.local file in the project root:
+  ```text
+  VITE_API_URL=<your_weather_api_endpoint>
+  VITE_API_KEY=<your_api_key>
+  ```
+  - Notes:
+    - Vite exposes only variables prefixed with VITE\_ to the client.
+    - Do not commit your API key. Add .env.local to .gitignore.
+    - The app expects the endpoint to support query parameters: q (city name), appid (API key), and units=metric.
+- Run locally
+  ```bash
+  npm run dev
+  ```
+  Open the local URL shown in your terminal.
+- Build
+  ```bash
+  npm run build
+  npm run preview
+  ```
+
+## Usage
+
+- Enter a city name and click Search.
+- If the city is found, the info card updates with current weather data.
+- If not found, an inline error alert appears: “No such place in our weather database”.
