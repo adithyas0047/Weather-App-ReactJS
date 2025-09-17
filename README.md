@@ -7,6 +7,8 @@
 
 A simple, responsive weather application built with **React** and **Material UI** that lets users search a city and view current conditions including temperature, humidity, min/max, feels like, and a descriptive icon with contextual background.
 
+**Demo**: https://weatherapp-reactjsapp.netlify.app/
+
 ## Features
 
 - City search with validation and clear error states
