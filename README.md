@@ -59,3 +59,7 @@ A simple, responsive weather application built with **React** and **Material UI*
 - Enter a city name and click Search.
 - If the city is found, the info card updates with current weather data.
 - If not found, an inline error alert appears: “No such place in our weather database”.
+
+## Screenshot
+
+![image](./src/assets/image.png)
